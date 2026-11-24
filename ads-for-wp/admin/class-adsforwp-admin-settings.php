@@ -956,7 +956,7 @@ class Adsforwp_Admin_Settings {
 
 		<input type="checkbox" id="afw_ad_fraud_protection" name="adsforwp_settings[ad_fraud_protection]" class="regular-text afw_ad_fraud_protection" value="1" <?php echo ( $is_checked === true ) ? esc_attr( 'checked' ) : ''; ?> <?php echo ( $is_disabled == true ) ? esc_attr( 'disabled' ) : ''; ?>>
 		<?php if ( ! $is_pro ) { ?>
-			<a target="_blank" href="https://www.adsforwp.com/pricing/#pricings" style="text-decoration: none;color: white;font-weight: bold;margin-left: 0px;font-size: 13px !important; padding: 7px 9px;letter-spacing: 0.1px;border-radius: 60px;margin-right: 0px; background: linear-gradient(to right,#eb3349,#f45c43);"><?php esc_html_e( 'Upgrade to Premium', 'ads-for-wp' ); ?></a>;
+			<a target="_blank" href="https://www.adsforwp.com/pricing/#pricings" style="text-decoration: none;color: white;font-weight: bold;margin-left: 0px;font-size: 13px !important; padding: 7px 9px;letter-spacing: 0.1px;border-radius: 60px;margin-right: 0px; background: linear-gradient(to right,#eb3349,#f45c43);"><?php esc_html_e( 'Upgrade to Premium', 'ads-for-wp' ); ?></a>
 		<?php } ?>
 		 
 		<p class="fra-pro-p"><?php echo esc_html__( 'Prevent spam users to click on ads multiple times.', 'ads-for-wp' ); ?></p>
